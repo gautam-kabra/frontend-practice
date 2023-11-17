@@ -1,0 +1,39 @@
+.main{
+    background-image: url("./pencils.jpg");
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.btn{
+    font-size: smaller !important;
+    padding:15px;
+    color:whitesmoke;
+    background-color:#3290A6;
+    border:none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: "Nunito Sans";
+    transition: all ease .2s;
+
+}
+
+.ok {
+    text-align: center;
+}
+
+.font{
+    margin-top: -30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #3ea5bc;
+}
