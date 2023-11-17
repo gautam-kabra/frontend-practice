@@ -1,0 +1,122 @@
+@import url("https://use.typekit.net/fyw5yob.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Orbitron&display=swap');
+.main{
+    display: flex;
+    justify-content: space-around;
+    width:62%;
+    height:70%;
+}
+
+
+body{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+}
+
+#mail, #name{
+    padding: 7px;
+    margin-bottom: 14px;
+    margin-left: 5px;
+    border: 1px solid rgba(204, 201, 201, 0.679);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#name{
+    margin-left: -0.5px;
+}
+
+#sub{
+    padding: 7px;
+    margin-bottom: 14px;
+    border: 1px solid rgb(204, 201, 201);
+    font-weight: bold;
+
+}
+
+textarea{
+    height:100px;
+    font-weight: bold;
+    padding: 7px;
+    border: 1px solid rgb(204, 201, 201);
+    resize:none;
+}
+
+.box{
+    margin-left: 30px;
+    background-color: #3D8BF2;
+    color:whitesmoke;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn{
+    color:whitesmoke;
+    padding:10px;
+    background-color:#3D9DF2 ;
+    border: none;
+    border-radius: 4px;
+    width:35%;
+    font-family: "Poppins";
+}
+
+.span{
+    display: flex;
+    align-items: center;
+}
+
+.span p{
+    font-size: 14px;
+}
+
+.span i{
+    margin-right: 5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border:none;
+    border-radius: 50%;
+    background-color: #5195fa;
+    text-align: center;
+    
+}
+
+.inp{
+    outline:none;
+    font-family:"Arial";
+    padding: 1em !important;
+    border:1px solid #ededed !important;
+    font-weight: light !important;
+}
+
+.title{
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: #3D8BF2;
+}
+
+.gotya{
+    color: #3D8BF2;
+}
